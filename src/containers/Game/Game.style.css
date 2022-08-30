@@ -1,0 +1,30 @@
+.gameBoard {
+  display: flex;
+  flex-direction: column;
+}
+.turn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.turn__text {
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+}
+.turn__candidate {
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+.row {
+  display: flex;
+}
+.companyImage {
+  width: 120px;
+  position: absolute;
+  top: 20px;
+}

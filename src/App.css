@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  background-color: #315cbc;
+  justify-content: center;
+  flex-direction: column;
+}
+.gameBoard {
+  display: flex;
+  flex-direction: column;
+}
+.turn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.turn__text {
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+}
+.turn__candidate {
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+.row {
+  display: flex;
+}
+.companyImage {
+  width: 120px;
+  position: absolute;
+  top: 20px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}

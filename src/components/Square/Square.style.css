@@ -1,0 +1,18 @@
+.square {
+  height: 180px;
+  width: 180px;
+  background-color: white;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  color: #f48692;
+  border-radius: 8px;
+}
+.square:active {
+  background-color: #f48692;
+  color: white;
+}
